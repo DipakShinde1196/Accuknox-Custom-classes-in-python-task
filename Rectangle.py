@@ -14,7 +14,6 @@ class Rectangle:
         self.length = length
         self.width = width
     def __iter__(self):
-        # Yielding the length first, followed by the width
         yield {'length': self.length}
         yield {'width': self.width}
 
